@@ -11,6 +11,8 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxtjs/device": "^1.2.7",
+    "@tailwindcss/forms": "^0.2.1",
     "nuxt": "^2.14.8"
   },
   "devDependencies": {

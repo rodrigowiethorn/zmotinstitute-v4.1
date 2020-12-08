@@ -13,10 +13,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'orange-shinny': '#f46322',  
+        'orange-shinny': '#f46322',
+        'orange-mat': '#fcdbc0',
+        'green-shinny': '#27c444'
       }
     },
   },
   variants: {},
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
 }

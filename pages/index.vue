@@ -1,9 +1,30 @@
 <template>
-  <lazy-hydrate when-visible>
-      <section-banner />
-    </lazy-hydrate>
+   <div>
+        <!-- <lazy-hydrate when-visible>
+          <SectionBanner />
+        </lazy-hydrate>
+
+        <lazy-hydrate when-visible>
+          <SectionWhyZmot />
+        </lazy-hydrate> -->
+    <SectionBanner />
+
+     <SectionLogoCloud />
+
+    <SectionWhyZmot />
+
+    <SectionExperts />
+
+    <SectionServices />
+
+    <SectionReviews />
+
+    <SectionBlogHome />
+
+    <SectionNewsletter />
 
 
+    </div>
 </template>
 
 <script>
@@ -11,14 +32,14 @@
 
 export default {
   components: {
-      SectionBanner: () => import('~/components/Home/SectionBanner')
-      //SectionBlogs: () => import('~/components/Home/SectionBlogs'),
-      // SectionSayAboutUs: () => import('~/components/Home/SectionSayAboutUs'),
-      // SectionServices: () => import('~/components/Home/SectionServices'),
-      // SectionSpecialists: () => import('~/components/Home/SectionSpecialists'),
-      // SectionWhyZmot: () => import('~/components/Home/SectionWhyZmot'),
-      // 
-      // NewsLetter: () => import('~/components/NewsLetter'),
+      SectionBanner: () => import('~/components/Production/Home/SectionBanner'),
+      SectionLogoCloud: () => import('~/components/Production/Home/SectionLogoCloud'),
+      SectionWhyZmot: () => import('~/components/Production/Home/SectionWhyZmot'),
+      SectionExperts: () => import('~/components/Production/Home/SectionExperts'),
+      SectionServices: () => import('~/components/Production/Home/SectionServices'),
+      SectionReviews: () => import('~/components/Production/Home/SectionReviews'),
+      SectionBlogHome: () => import('~/components/Production/Home/SectionBlogHome'),
+      SectionNewsletter: () => import('~/components/Production/Home/SectionNewsletter'),
   }
 }
 </script>

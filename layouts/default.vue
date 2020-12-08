@@ -1,6 +1,16 @@
 <template>
-  <div>
-    <nuxt />
+  <div >
+    
+    <!-- <MenuHeader /> -->
+
+    <MenuHeader />
+
+    <Nuxt />
+
+    <SectionFooter />
+
+    <Footer />
+
   </div>
 </template>
 
@@ -24,32 +34,17 @@ html {
   margin: 0;
 }
 
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
-}
-
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
-}
-
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
-}
-
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
-}
 </style>
+
+<script>
+export default {
+  
+  components: {
+      // MenuHeader: () => import('~/components/Production/NavBar/MenuHeader'),
+      Footer: () => import('~/components/Production/Footer/Footer'),
+
+      MenuHeader: () => import('~/components/Production/NavBar/MenuHeader'),
+
+  }    
+}
+</script>

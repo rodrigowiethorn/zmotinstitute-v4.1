@@ -39,7 +39,8 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/device'
   ],
   /*
   ** Configuration for TailwindCSS
