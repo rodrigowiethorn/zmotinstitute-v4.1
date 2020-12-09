@@ -20,7 +20,7 @@
       
 
       <!-- 1st Card -->
-      <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+      <div class="flex flex-col rounded-lg shadow-lg overflow-hidden order-12">
         <div class="flex-shrink-0">
           <img class="h-48 w-full object-cover" src="~/assets/img/events-gallery/palestra_acate_jornalista_empreender_internet.png" alt="">
         </div>
@@ -66,7 +66,7 @@
       </div>
       
       
-      <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+      <div class="flex flex-col rounded-lg shadow-lg overflow-hidden order-11">
         <div class="flex-shrink-0">
           <img class="h-48 w-full object-cover" src="~assets/img/events-gallery/palestra-zmot-faculdade-estacio.png" alt="">
         </div>
@@ -112,7 +112,7 @@
       </div>
 
         <!-- 2nd Card -->
-      <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+      <div class="flex flex-col rounded-lg shadow-lg overflow-hidden order-10">
         <div class="flex-shrink-0">
           <img class="h-48 w-full object-cover" src="~/assets/img/events-gallery/palestra_semana_cience_tecnologia_inovacao_caltic_2017.png" alt="">
         </div>
@@ -161,7 +161,7 @@
         <!-- 3rdt Card - SebraeLab -->
       
       <!-- 23 encontro Dazideias - https://dazideia.com/23o-encontro-dazideia-florianopolis/ -->
-      <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+      <div class="flex flex-col rounded-lg shadow-lg overflow-hidden order-9">
         <div class="flex-shrink-0">
           <img class="h-48 w-full object-cover" src="~/assets/img/events-gallery/palestra_zmot_23_dazideias_floripa.png" alt="">
         </div>
@@ -208,7 +208,7 @@
 
         <!-- 4th Card -->
       
-      <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+      <div class="flex flex-col rounded-lg shadow-lg overflow-hidden order-8">
         <div class="flex-shrink-0">
           <img class="h-48 w-full object-cover" src="~/assets/img/events-gallery/palestra_mundo_de_gigantes_banner.jpeg" alt="">
         </div>
@@ -255,7 +255,7 @@
 
       <!-- Mentoria Inovativa -->
 
-      <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+      <div class="flex flex-col rounded-lg shadow-lg overflow-hidden order-7">
             <div class="flex-shrink-0">
             <img class="h-48 w-full object-cover" src="~/assets/img/events-gallery/bootcamp_regional_inovativa_floripa.png" alt="">
             </div>
@@ -305,7 +305,7 @@
       
         <!-- 5th Card -->
 
-      <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+      <div class="flex flex-col rounded-lg shadow-lg overflow-hidden order-6">
             <div class="flex-shrink-0">
             <img class="h-48 w-full object-cover" src="~/assets/img/events-gallery/content-hackers-content-marketing-week.png" alt="">
             </div>
@@ -350,7 +350,7 @@
             </div>
       </div>
 
-      <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+      <div class="flex flex-col rounded-lg shadow-lg overflow-hidden order-5">
         <div class="flex-shrink-0">
           <img class="h-48 w-full object-cover" src="~/assets/img/events-gallery/palestra_fejesc_se_joga_na_rede.png" alt="">
         </div>
@@ -402,9 +402,9 @@
         <!-- 7th Card -->
         
         
-      <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+      <div class="flex flex-col rounded-lg shadow-lg overflow-hidden order-4">
             <div class="flex-shrink-0">
-            <img class="h-48 w-full object-cover" src="~/assets/img/events-gallery/content-hackers-content-marketing-week.png" alt="">
+            <img class="h-48 w-full object-cover" src="~/assets/img/events-gallery/palestra_semana_academica_ciencias_contabeis.png" alt="">
             </div>
             <div class="flex-1 bg-white p-6 flex flex-col justify-between">
             <div class="flex-1">
@@ -448,7 +448,7 @@
       </div>
 
         <!-- Semana Planejamento Comercial Plumes - https://www.instagram.com/p/CFHx2tvA56l/ -->
-      <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+      <div class="flex flex-col rounded-lg shadow-lg overflow-hidden order-3">
             <div class="flex-shrink-0">
             <img class="h-48 w-full object-cover" src="~/assets/img/events-gallery/semana_planejamento_comercial_plumes.jpg" alt="">
             </div>
@@ -459,7 +459,7 @@
                 </p>
                 <a href="http://materiais.ploomes.com/semana-de-planejamento-comercial-2021#:~:text=Semana%20de%20Planejamento%20Comercial%202021%2D%2014%20a%2018%20de%20setembro" target="_blank" class="block mt-2">
                 <p class="text-xl font-semibold text-gray-900">
-                    Semana Planejamento Comercial Plumes
+                    Semana Planejamento Comercial 2021 Ploomes
                 </p>
                 <p class="mt-3 text-base text-gray-500">
                     Muito bacana ter participado do bate papo com o pessoal da Plumes sobre Planejamento Comercial. Discutimos como técnicas de venda Low Touch podem ser escaladas mais facilmente e trazer resultados surpreendentes.
@@ -480,8 +480,8 @@
                         </a>
                     </p>
                     <div class="flex space-x-1 text-sm text-gray-500">
-                        <time datetime="2019-09-19">
-                        Setembro 19, 2019
+                        <time datetime="2020-09-16">
+                        Setembro 16, 2020
                         </time>
                         <!-- <span aria-hidden="true">
                         &middot;
@@ -494,7 +494,7 @@
       </div>
 
       <!-- Webinar Hostinger - https://www.instagram.com/p/CGlIKzVg8zf/ -->
-        <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+        <div class="flex flex-col rounded-lg shadow-lg overflow-hidden order-2">
             <div class="flex-shrink-0">
             <img class="h-48 w-full object-cover" src="~/assets/img/events-gallery/live_hostinger_comporamento_consumidor.jpg" alt="">
             </div>
@@ -539,7 +539,7 @@
             </div>
       </div>
       
-      <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+      <div class="flex flex-col rounded-lg shadow-lg overflow-hidden order-1">
             <div class="flex-shrink-0">
             <img class="h-48 w-full object-fill" src="~/assets/img/events-gallery/inovativa_experience.png" alt="">
             </div>
