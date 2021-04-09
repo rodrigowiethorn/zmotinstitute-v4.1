@@ -27,7 +27,7 @@
         <button class="ml-4 inline-flex text-gray-700 bg-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 rounded text-lg">Button</button>
       </div> -->
     </div>
-    <div v-if="$device.isDesktop"  class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+    <div v-if="$device.isDesktop"  class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 lg:transform lg:-scale-125 lg:mr-12">
       <img class="object-cover object-center rounded" alt="hero" src="~/assets/img/services-section/service-zmot_audit.png">
     </div>
   </div>

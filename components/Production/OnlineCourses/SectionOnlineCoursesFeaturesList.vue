@@ -1,17 +1,17 @@
 <template>
     <!-- This example requires Tailwind CSS v2.0+ -->
-<div class="relative bg-indigo-700 m-6 lg:m-12 rounded-3xl" id="ZmotAuditFeatures">
+<div class="relative bg-indigo-700 m-6 lg:m-12 rounded-3xl" id="ZmotCoursesFeatures">
 
   
   <div class="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:py-24 lg:px-8 lg:grid lg:grid-cols-3 lg:gap-x-8">
     <div>
       <!-- <h2 class="text-base font-semibold text-indigo-600 uppercase tracking-wide">Everything you need</h2> -->
-      <p class="mt-2 text-3xl text-center md:text-left font-extrabold text-white">Encante a Platéia
-          <br> do seu Evento com ZMOT
+      <p class="mt-2 text-3xl text-center md:text-left font-extrabold text-white">Workshop & 
+          <br> Treinamento Online
       </p>
-      <p class="mt-8 lg:mr-8 text-lg text-justify md:text-left text-gray-200">Se você está organizando um evento e precisa de um tema super atual e relevante, com um storytelling envolvedor, nossas Palestras sobre ZMOT e Comportamento do Consumidor são o que você precisa.</p>
+      <p class="mt-8 lg:mr-8 text-lg text-justify md:text-left text-gray-200"> Cursos Online são a solução perfeita se você quer aprender um conteúdo a fundo, mas tem pouco disponibilidade de agenda.</p>
         
-      <p class="mt-8 lg:mr-8 text-lg text-justify md:text-left text-gray-200">Seja em um evento presencial ou online, os participantes do seu evento vão te agradecer por ajudá-los a entender como o ZMOT pode melhorar os resultados de forma exponencial.</p>
+      <p class="mt-8 lg:mr-8 text-lg text-justify md:text-left text-gray-200">Aprendizado para nós é uma coisa séria, e por isso acreditamos que cursos online são o melhor custo benefício para as pessoas que estão a procura de como aprender sobre marketing digital.</p>
     </div>
     <div class="mt-12 lg:mt-0 lg:col-span-2">
       <dl class="space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:grid-rows-4 sm:grid-flow-col sm:gap-x-6 sm:gap-y-10 lg:gap-x-8">
@@ -142,6 +142,6 @@
 
 <script>
 export default {
-  name: "SectionTalksLecturesFeaturesList"
+  name: "SectionOnlineCoursesFeaturesList"
 }
 </script>

@@ -5,7 +5,7 @@
 
         <SectionTalksLecturesFeaturesList />
 
-        <SectionZmotAuditLeadForm />
+        <SectionTalksLectureLeadForm />
 
         <SectionTalksLecturesGallery />
 
@@ -17,7 +17,7 @@ export default {
     components: {
       SectionTalksLecturesHero: () => import('~/components/Production/TalksLectures/SectionTalksLecturesHero'),
       SectionTalksLecturesFeaturesList: () => import('~/components/Production/TalksLectures/SectionTalksLecturesFeaturesList'),
-      SectionZmotAuditLeadForm: () => import('~/components/Production/ZmotAudit/SectionZmotAuditLeadForm'),
+      SectionTalksLectureLeadForm: () => import('~/components/Production/TalksLectures/SectionTalksLectureLeadForm'),
       SectionTalksLecturesGallery: () => import('~/components/Production/TalksLectures/SectionTalksLecturesGallery'),
 
     }
