@@ -1,6 +1,6 @@
 <template>
   
-<div class="relative bg-orange-100 m-6 lg:m-12 rounded-3xl">
+<div class="relative bg-orange-100 m-6 lg:m-12 rounded-3xl" id="LecturesLeadForm">
   <div class="absolute inset-0 ">
     <div class="absolute inset-y-0 left-0 w-1/2"></div>
   </div>

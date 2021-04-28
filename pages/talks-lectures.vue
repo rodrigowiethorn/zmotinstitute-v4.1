@@ -3,11 +3,17 @@
 
         <SectionTalksLecturesHero />
 
-        <SectionTalksLecturesFeaturesList />
+        <SectionTalksLectureWhyHire />
+        
+        <SectionTalksLecturesOurTalks />
+
+        <SectionTalksLecturesGallery />
 
         <SectionTalksLectureLeadForm />
 
-        <SectionTalksLecturesGallery />
+        <SectionTalksLectureFAQ />
+
+
 
     </main>
 </template>
@@ -16,9 +22,11 @@
 export default {
     components: {
       SectionTalksLecturesHero: () => import('~/components/Production/TalksLectures/SectionTalksLecturesHero'),
-      SectionTalksLecturesFeaturesList: () => import('~/components/Production/TalksLectures/SectionTalksLecturesFeaturesList'),
+      SectionTalksLecturesOurTalks: () => import('~/components/Production/TalksLectures/SectionTalksLecturesOurTalks'),
+      SectionTalksLectureWhyHire: () => import('~/components/Production/TalksLectures/SectionTalksLectureWhyHire'),
       SectionTalksLectureLeadForm: () => import('~/components/Production/TalksLectures/SectionTalksLectureLeadForm'),
       SectionTalksLecturesGallery: () => import('~/components/Production/TalksLectures/SectionTalksLecturesGallery'),
+      SectionTalksLectureFAQ: () => import('~/components/Production/TalksLectures/SectionTalksLectureFAQ'),
 
     }
 }

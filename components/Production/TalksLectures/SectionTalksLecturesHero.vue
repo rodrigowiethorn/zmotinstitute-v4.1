@@ -4,9 +4,9 @@
 <div id="hero-section" class="bg-orange-100 m-6 lg:m-12 rounded-3xl" > <!-- bg-amber-100 -->
     <div class="container mx-auto flex px-5 py-6 lg:py-24 md:flex-row flex-col items-center">
     <div class="lg:flex-grow md:w-1/2 lg:pr-16 md:pr-8 flex flex-col md:items-start md:text-left mb-8 md:mb-0 items-center text-center">
-      <h1 class="title-font text-5xl lg:text-6xl mb-4 font-semibold text-orange-shinny">Evangelizando ZMOT 
-        <br class="hidden lg:inline-block">Palestras, Webinars 
-         <br class="hidden lg:inline-block">& Eventos Corporativos
+      <h1 class="title-font text-5xl lg:text-6xl mb-4 font-semibold text-orange-shinny">Contratar Palestrantes de
+        <br class="hidden lg:inline-block">Comportamento do Consumidor
+         
       </h1>
       <!-- <p class="mb-8 leading-relaxed text-red-700 font-semibold text-xl mt-4">Nossa Consultoria de Marketing te ajuda a otimizar seu Mix de Marketing com ZMOT.</p> -->
         <div class="mt-10 sm:flex sm:justify-center lg:justify-start">
